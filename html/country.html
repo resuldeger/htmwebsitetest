@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="header-top-right">
                     <div class="user-menu">
-                        <a href="#" aria-label="Member Profile">Hoşgeldiniz, Admin</a>
+                        <button type="button" onclick="window.location='signup.html';" class="btn btn-light btn-sm rounded">Üye Ol</button>
                     </div>
                     <div class="menu-items">
                         <ul>
@@ -35,6 +35,7 @@
                             <li>
                                 <a href="#">İletişim</a>
                             </li>
+                            
                             <li>
                                 <a href="sss.html">Destek</a>
                             </li>
@@ -62,34 +63,117 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-xl-auto">
+                    <div class="col">
                         <div class="logo">
                             <a href="../html/index.html" aria-label="Logo">
                                 <img src="../assets/uploads/logo.png" alt="Site Başlık Çekilecek">
                             </a>
                         </div>
                     </div>
-                    <div class="col-auto col-xl d-none d-xl-block">
+                    <div class="col-auto d-none d-xl-block">
                         <nav id="navigation">
-                            <div class="level-1">
-                                <ul>
-                                    <li>
-                                        <a href="../html/sector.html">
-                                            <span>Sektörler</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../html/country.html">
-                                            <span>Ülkeler</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../html/company-list.html">
-                                            <span>Firmalar</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <li class="has-sub-category" data-selector="first-level-navigation">
+                                    <a href="page-list.html">
+                                        <span>Gerçek Kişilere</span>
+                                    </a>
+                                    <div class="sub-navigation-container">
+                                        <ul>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Mevduat</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Kartlar</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Oferta sözleşmesı</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Krediler</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Additional information about accounts of individuals</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Başvurular</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="has-sub-category" data-selector="first-level-navigation">
+                                    <a href="../html/sector.html">
+                                        <span>Sektörler</span>
+                                    </a>
+                                    <div class="sub-navigation-container">
+                                        <ul>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Mevduat</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Kartlar</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Oferta sözleşmesı</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Krediler</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Additional information about accounts of individuals</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <span>Başvurular</span>
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"> <path d="M5.25 2.91667L9.33333 7L5.25 11.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="../html/country.html">
+                                        <span>Ülkeler</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../html/company-list.html">
+                                        <span>Firmalar</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                     <div class="col-auto col-xl-1">
